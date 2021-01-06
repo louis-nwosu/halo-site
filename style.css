@@ -1,0 +1,107 @@
+.active {
+    border-bottom: 4px solid  #f7ff00 !important;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.util-bigger-font {
+    font-size: xx-large;
+}
+
+.brand-color {
+    color:  #f7ff00;
+}
+
+.bg-brand-color {
+    background-color: #f7ff00;
+}
+
+.util-margin-top {
+    margin-top: 2.5em;
+}
+
+.util-margin-bottom {
+    margin-bottom: 3.5em;
+}
+
+.util-h1-size {
+    font-size: 75px;
+}
+
+.util-h2-size {
+    font-size: 50px;
+}
+
+.util-padding-top {
+    padding-top: 1.2em;
+}
+
+.util-padding-bottom {
+    padding-bottom: 2.5em;
+}
+
+.padding-top {
+    margin-top: 3%;
+}
+
+.padding-bottom {
+    padding-bottom: 3%;
+}
+
+.shadow {
+    box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.2);
+}
+
+.shadow:hover {
+    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 
+    0 5px 5px rgba(0,0,0,0.12), 
+    0 7px 7px rgba(0,0,0,0.12), 
+    0 9px 9px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+    background-color:  #f7ff00;
+    color: #555;
+}
+
+testimonial-image {
+    width: 100px;
+    height: 80px;
+}
+/* using media query to control font size and all... */
+
+.testi-neg-marg {
+    margin-left: -1.2em;
+}
+
+.shadow-white {
+    box-shadow: 3px 4px 5px 3px rgba(255, 255, 255, 0.384);
+}
+
+.project-card {
+    box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.2);
+    padding: 1rem;
+}
+
+#about-us-text {
+    line-height: 1.5em;
+    line-break: strict;
+}
+
+
+#about-us-text-container {
+    box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.2);
+}
+
+#img-shadow {
+    box-shadow: 3px 4px 5px 3px rgb(218, 204, 8);
+    
+}
+
+@media only screen and (max-width: 766) {
+    #about-us-top {
+        padding-top: 1rem;
+    }
+}
+
+
